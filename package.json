@@ -1,0 +1,36 @@
+{
+  "name": "@sendflit/sdk",
+  "version": "1.1.0",
+  "description": "The official SendFlit SDK for Node.js — transactional email API for applications and AI agents",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "sendflit",
+    "email",
+    "transactional email",
+    "email api",
+    "smtp",
+    "mcp",
+    "ai agents"
+  ],
+  "author": "SendFlit",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sendflit/sendflit-node.git",
+    "directory": "sdks/node"
+  },
+  "homepage": "https://sendflit.com",
+  "bugs": {
+    "url": "https://github.com/Sendflit/sendflit-node/issues"
+  }
+}
