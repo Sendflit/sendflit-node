@@ -125,7 +125,7 @@ app.post("/webhooks/sendflit",
 | `createTemplate(t)` / `listTemplates()` | `/v1/templates…` |
 | `addContact(c)` / `listContacts(q)` | `/v1/contacts…` |
 | `suppress({email, reason})` | `POST /v1/suppressions` |
-| `usage()` / `health()` | `/v1/usage`, `/v1/health` |
+| `usage()` / `health()` | `/v1/usage`, `/health` |
 
 ### Errors
 
